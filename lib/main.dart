@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Wisata Bandung',
       theme: ThemeData(),
       home: const MainScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
